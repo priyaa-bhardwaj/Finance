@@ -1,0 +1,93 @@
+.responsive-heading {
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #979797; /* Grey color */
+    overflow: hidden; /* Hide overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    /* margin: 1px; */
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-heading {
+      font-size: 8vw; /* Decrease font size for smaller screens */
+    }
+  }
+  .responsive-heading{
+    padding-bottom: 10px;
+  }
+  .main{
+    margin: 0px;
+    padding-bottom: 20px;
+    background-color: #191E29;
+  }
+  
+  .calculator-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+  }
+  
+  .calculator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .calculator-header h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .calculator-body {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .slider-group {
+    margin-bottom: 20px;
+  }
+  
+  .slider-group h3 {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .slider-value {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .summary {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .summary p {
+    margin: 5px;
+  }
+  
+  .invest-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  
